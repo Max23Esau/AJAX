@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(153, 65, 127);
+  color: snow;
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 1em;
+  border-radius: 5px;
+  border: 2px solid snow;
+  background: rgb(255 255 255 / 0.1);
+  color: snow;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(2px);
+}

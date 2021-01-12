@@ -1,5 +1,11 @@
 // console.log('ok');
 document.querySelector('#boton').addEventListener('click', traerDatos);
+document.querySelector('#boton-clean').addEventListener('click', limpiarDatos);
+
+function limpiarDatos() {
+  let respuesta = document.querySelector('#respuesta');
+  respuesta.innerHTML = '';
+}
 
 function traerDatos() {
   // console.log('Dentro de la funcion');

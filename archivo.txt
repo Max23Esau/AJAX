@@ -1,1 +1,0 @@
-Este es el maravilloso mensaje que se va a ver en la terminal!

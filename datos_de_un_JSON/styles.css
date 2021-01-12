@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(153, 65, 127);
+  color: snow;
+  font-family: 'Roboto', sans-serif;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 1em;
+  border-radius: 5px;
+  border: 2px solid snow;
+  background: rgb(255 255 255 / 0.1);
+  color: snow;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(2px);
+}
+
+table {
+  border-spacing: 5px;
+}
+thead tr th {
+  background-color: rgb(255 255 255 / 80%);
+  font-weight: 400;
+  color: black;
+}
+td,
+th {
+  background: rgb(255 255 255 / 0.2);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 700;
+}
