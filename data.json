@@ -1,0 +1,210 @@
+[
+  {
+    "titulo": "Empire Burlesque",
+    "artista": "Bob Dylan",
+    "pais": "USA",
+    "compañia": "Columbia",
+    "precio": "10.90",
+    "año": "1985"
+  },
+  {
+    "titulo": "Hide your heart",
+    "artista": "Bonnie Tyler",
+    "pais": "UK",
+    "compañia": "CBS",
+    "precio": "9.90",
+    "año": "1988"
+  },
+  {
+    "titulo": "Greatest Hits",
+    "artista": "Dolly Parton",
+    "pais":"USA",
+    "compañia": "RCA",
+    "precio": "9.90",
+    "año": "1982"
+  },
+  {
+    "titulo": "Still got the blues",
+    "artista": "Gary Moore",
+    "pais": "UK",
+    "compañia": "Virgin records",
+    "precio": "10.20",
+    "año": "1990"
+  },
+  {
+    "titulo": "Eros",
+    "artista": "Eros Ramazzotti",
+    "pais": "EU",
+    "compañia": "BMG",
+    "precio": "9.90",
+    "año": "1997"
+  },
+  {
+    "titulo": "One night only",
+    "artista": "Bee Gees",
+    "pais": "UK",
+    "compañia": "Polydor",
+    "precio": "10.90",
+    "año": "1998"
+  },
+  {
+    "titulo": "Sylvias Mother",
+    "artista": "Dr.Hook",
+    "pais": "UK",
+    "compañia": "CBS",
+    "precio": "8.10",
+    "año": "1973"
+  },
+  {  
+    "titulo": "Maggie May",
+    "artista": "Rod Stewart",
+    "pais": "UK",
+    "compañia": "Pickwick",
+    "precio": "8.50",
+    "año": "1990"
+  },
+  { 
+    "titulo": "Romanza",
+    "artista": "Andrea Bocelli",
+    "pais": "EU",
+    "compañia": "Polydor",
+    "precio": "10.80",
+    "año": "1996"
+  },
+  { 
+    "titulo": "When a man loves a woman",
+    "artista": "Percy Sledge",
+    "pais":"USA",
+    "compañia": "Atlantic",
+    "precio": "8.70",
+    "año": "1987"
+  },
+  {  
+    "titulo": "Black angel",
+    "artista": "Savage Rose",
+    "pais": "EU",
+    "compañia": "Mega",
+    "precio": "10.90",
+    "año": "1995"
+  },
+  {
+    "titulo": "Grammy Nominees",
+    "artista": "Many",
+    "pais":"USA",
+    "compañia": "Grammy",
+    "precio": "10.20",
+    "año": "1999"
+  },
+  {  
+    "titulo": "For the good times",
+    "artista": "Kenny Rogers",
+    "pais": "UK",
+    "compañia": "Mucik Master",
+    "precio": "8.70",
+    "año": "1995"
+  },  
+  {
+    "titulo": "Big Willie style",
+    "artista": "Will Smith",
+    "pais":"USA",
+    "compañia":"Columbia",
+    "precio": "9.90",
+    "año": "1997"
+  },
+  {
+    "titulo": "Tupelo Honey",
+    "artista": "Van Morrison",
+    "pais": "UK",
+    "compañia": "Polydor",
+    "precio": 8.20,
+    "año": "1971"
+  },
+  {
+    "titulo": "Soulsville",
+    "artista": "Jorn Hoel",
+    "pais": "Norway",
+    "compañia": "WEA",
+    "precio": "7.90",
+    "año": "1996"
+  },
+  {
+    "titulo": "The very best of",
+    "artista": "Cat Stevens",
+    "pais": "UK",
+    "compañia": "Island",
+    "precio": "8.90",
+    "año": "1990"
+  },
+  { 
+    "titulo": "Stop",
+    "artista": "Sam Brown",
+    "pais": "UK",
+    "compañia": "A and M",
+    "precio": "8.90",
+    "año": "1988"
+  },
+  {
+    "titulo": "Bridge of Spies",
+    "artista": "T'Pau",
+    "pais": "UK",
+    "compañia": "Siren",
+    "precio": "7.90",
+    "año": "1987"
+  },
+  {
+    "titulo": "Private Dancer",
+    "artista": "Tina Turner",
+    "pais": "UK",
+    "compañia": "Capitol",
+    "precio": "8.90",
+    "año": "1983"
+  },
+  {
+    "titulo": "Midt om natten",
+    "artista": "Kim Larsen",
+    "pais": "EU",
+    "compañia": "Medley",
+    "precio": "7.80",
+    "año": "1983"
+  },
+  { 
+    "titulo": "Pavarotti Gala Concert",
+    "artista": "Luciano Pavarotti",
+    "pais": "UK",
+    "compañia": "DECCA",
+    "precio": "9.90",
+    "año": "1991"
+  },
+  {
+    "titulo": "The dock of the bay",
+    "artista": "Otis Redding",
+    "pais": "USA",
+    "compañia": "Stax Records",
+    "precio": "7.90",
+    "año": "1968"
+  },
+  {
+    "titulo": "Picture book",
+    "artista": "Simply Red",
+    "pais": "EU",
+    "compañia": "Elektra",
+    "precio": "7.20",
+    "año": "1985"
+  },
+  {
+    "titulo": "Red",
+    "artista": "The Communards",
+    "pais": "UK",
+    "compañia": "London",
+    "precio": "7.80",
+    "año": "1987"
+  },
+  { 
+    "titulo": "Unchain my heart",
+    "artista":"Joe Cocke",
+    "pais": "USA",
+    "compañia": "EMI",
+    "precio": "8.20",
+    ",año": "1987"
+  }
+]
