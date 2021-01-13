@@ -1,13 +1,27 @@
 document.querySelector('#dolar').addEventListener('click', function () {
   obtenerDatos('dolar');
 });
-document.querySelector('#uf').addEventListener('click', function () {
-  obtenerDatos('uf');
+
+document.querySelector('#euro').addEventListener('click', function () {
+  obtenerDatos('euro');
 });
+
+document.querySelector('#bitcoin').addEventListener('click', function () {
+  obtenerDatos('bitcoin');
+});
+
 document.querySelector('#boton-clean').addEventListener('click', limpiarDatos);
 
 function obtenerDatos(valor) {
   let url = `https://mindicador.cl/api/${valor}`;
+
+  const primeraLetraMayuscula = (cadena) =>
+    cadena.charAt(0).toUpperCase().concat(cadena.substring(1, cadena.length));
+
+  let title = document.querySelector('#title');
+
+  title.innerHTML = `
+  ${primeraLetraMayuscula(valor)} representado en pesos chilenos`;
 
   const api = new XMLHttpRequest();
   api.open('GET', url, true);
@@ -26,10 +40,10 @@ function obtenerDatos(valor) {
         // console.log(item.fecha);
         i++;
         resultado.innerHTML += `
-        <li>
-        $ ${item.valor} - ${item.fecha.substring(0, 10)}
-        </li>
-        `;
+        <tr>
+          <td>$${item.valor}</td>
+          <td>${item.fecha.substring(0, 10)}</td>
+        </tr>`;
         if (i > 10) {
           break;
         }

@@ -9,12 +9,23 @@
   <body>
     <div class="container">
       <div class="section">
-        <button class="btn" id="dolar">Dolar</button>
-        <button class="btn" id="uf">Uf</button>
-        <button class="btn" id="boton-clean">Limpiar datos</button>
+        <button class="btn btn-dolar" id="dolar">Dolar</button>
+        <button class="btn btn-euro" id="euro">Euro</button>
+        <button class="btn btn-bitcoin" id="bitcoin">Bitcoin</button>
+        <button class="btn btn-clean" id="boton-clean"></button>
       </div>
       <div class="section">
-        <ul id="resultado"></ul>
+        <h1 id="title"></h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Precio</th>
+              <th>Fecha</th>
+            </tr>
+          </thead>
+          <tbody id="resultado"></tbody>
+        </table>
+        <!-- <ul id="resultado"></ul> -->
       </div>
     </div>
     <script src="./monedas.js"></script>

@@ -1,23 +1,70 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 1em;
 }
 .btn {
-  padding: 10px 20px;
+  width: 170px;
+  height: 80px;
   margin: 1em;
   border: none;
   border-radius: 5px;
   font-weight: 700;
   outline: none;
   cursor: pointer;
-  background: rgb(16, 131, 16);
-  color: aliceblue;
+  color: white;
   box-shadow: 1px 1px 5px 1px black;
+  font-size: 1.2em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.3s;
 }
-.btn:active {
-  transform: translateY(2px);
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn-dolar {
+  background-image: url(https://i.pinimg.com/736x/a2/fb/af/a2fbaf34cb56f414b17ed77ad80c7bf0.jpg);
+  text-shadow: 0px 0px 5px black;
+}
+.btn-euro {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1200px-Flag_of_Europe.svg.png);
+}
+.btn-bitcoin {
+  background-image: url(https://e3.365dm.com/21/01/768x432/skynews-bitcoin-cryptocurrency_5225261.jpg?20210102182326);
+  text-shadow: 1px 1px 10px white;
+}
+.btn-clean {
+  width: initial;
+  height: initial;
+  background-image: url(https://proyectosinformaticatnl.ceti.mx/horchess/Marco/Practica2/PracticaAgenda/img/eliminar.svg);
+  background-color: darkgray;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  padding: 20px 40px;
 }
 
 li {
   list-style: none;
   margin: 5px 0;
+}
+table {
+  border-spacing: 5px;
+}
+thead tr th {
+  background-color: rgb(255 154 0);
+  font-weight: 700;
+  color: black;
+  text-shadow: 0px 0px 10px snow;
+}
+td,
+th {
+  background-color: rgb(0 0 0 / 0.9);
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 700;
+  color: white;
 }
